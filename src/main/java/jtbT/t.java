@@ -14,19 +14,19 @@ public class t {
     //工具条相关
     JToolBar jtb = new JToolBar("播放工具条",SwingConstants.HORIZONTAL);//水平排列
     //3个action对象
-    Action pre = new AbstractAction("上一曲",new ImageIcon("jtbT/img/component/pre.png")) {
+    Action pre = new AbstractAction("上一曲",new ImageIcon("src/main/img/component/pre.png")) {
         @Override
         public void actionPerformed(ActionEvent e) {
             jta.append("上一曲\n");
         }
     };
-    Action pause = new AbstractAction("暂停",new ImageIcon("jtbT/img/component/pause.png")) {
+    Action pause = new AbstractAction("暂停",new ImageIcon("src/main/img/component/pause.png")) {
         @Override
         public void actionPerformed(ActionEvent e) {
             jta.append("暂停\n");
         }
     };
-    Action next = new AbstractAction("下一曲",new ImageIcon("jtbT/img/component/next.png")) {
+    Action next = new AbstractAction("下一曲",new ImageIcon("src/main/img/component/next.png")) {
         @Override
         public void actionPerformed(ActionEvent e) {
             jta.append("下一曲\n");
